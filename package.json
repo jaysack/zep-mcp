@@ -1,0 +1,19 @@
+{
+  "name": "mcp-server-zep-cloud",
+  "version": "1.0.0",
+  "description": "MCP server for Zep Cloud — long-term memory for AI agents",
+  "type": "module",
+  "bin": {
+    "mcp-server-zep-cloud": "./server.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": ["mcp", "zep", "memory", "knowledge-graph", "ai-agents"],
+  "license": "MIT",
+  "dependencies": {
+    "@getzep/zep-cloud": "^3.18.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
